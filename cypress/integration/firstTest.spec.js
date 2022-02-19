@@ -52,7 +52,8 @@ it('Using Get with Find and Eq', () => {
     cy.get('tbody').find('td').find('div').find('button').eq('0')
     });
 
-it.only('Using Get with Find and Eq', () => {
+//Comments
+    it.only('Using Get with Find and Eq', () => {
     cy.viewport(1800, 700)
     cy.visit("https://docs.cypress.io/api/commands/eq#Syntax")
     cy.get('aside').find('div').find('ol').find('li').find('a').eq(0)
