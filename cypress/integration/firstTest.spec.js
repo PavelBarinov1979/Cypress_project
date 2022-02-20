@@ -12,40 +12,40 @@ const { iteratee } = require("lodash");
     
 //});
 
-//it('By ID', () => {
-//    cy.visit("https://facebook.com/")
-//    cy.get('#email')
-//});
+it('By ID', () => {
+    cy.visit("https://facebook.com/")
+    cy.get('#email')
+});
 
-//it('By Class', () => {
-//    cy.visit("https://docs.cypress.io/api/commands/location#Syntax")
-//    cy.get('.ds-input')
-//});
+it('By Class', () => {
+    cy.visit("https://docs.cypress.io/api/commands/location#Syntax")
+    cy.get('.ds-input')
+});
 
-//it('By Tag', () => {
-//    cy.visit("https://docs.cypress.io/api/commands/location#Syntax")
-//    cy.get('nav')
-//});
+it('By Tag', () => {
+    cy.visit("https://docs.cypress.io/api/commands/location#Syntax")
+    cy.get('nav')
+});
 
-//it('By Tag value', () => {
-//    cy.visit("https://facebook.com/")
-//    cy.get('[name="pass"]')
-//});
+it('By Tag value', () => {
+    cy.visit("https://facebook.com/")
+    cy.get('[name="pass"]')
+});
 
 //it('By Diffent Tag', () => {
 //    cy.visit("https://facebook.com/")
 //    cy.get('[data-testid="open-registration-form-button"] [role="button"]')
 //});
 
-//it('By Diffent Types', () => {
-//    cy.visit("https://docs.cypress.io/api/commands/location#Syntax")
-//    cy.get('button[type="button"] [title="close banner"]')
-//});
+it('By Diffent Types', () => {
+    cy.visit("https://docs.cypress.io/api/commands/location#Syntax")
+    cy.get('button[type="button"] [title="close banner"]')
+});
 
-//it.only('By Contains name', () => {
-//    cy.visit("https://docs.cypress.io/api/commands/location#Syntax")
-//    cy.get('*[class^="card"]')
-//});
+it.only('By Contains name', () => {
+    cy.visit("https://docs.cypress.io/api/commands/location#Syntax")
+    cy.get('*[class^="card"]')
+});
 
 it('Using Get with Find and Eq', () => {
     cy.visit("https://next.privat24.ua/deposit/open")
