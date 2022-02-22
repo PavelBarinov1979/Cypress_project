@@ -10,10 +10,10 @@ it('Example sending Get request', () => {
 
 it('Example sending Post request', () => {
     cy.request({
-         method:
-         url:
-         body:
-         headers:
+         method: 'Post',
+         url: 'https://next.privat24.ua',
+         body: '',
+         headers: ''
 
 
 

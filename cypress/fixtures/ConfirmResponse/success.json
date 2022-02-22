@@ -1,0 +1,10 @@
+{
+    "task_id": "cash",
+    "data": {
+       "channel": "P24WEB",
+
+
+    "result": "accept",
+    },
+   "status": "success"
+}
